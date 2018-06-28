@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TranslateEnglish
 {
-    class PigLatinTranslator : ITranslator
+     class PigLatinTranslator : ITranslator
     {
         public string Translate(string text)
         {

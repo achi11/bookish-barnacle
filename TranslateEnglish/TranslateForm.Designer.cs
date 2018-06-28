@@ -125,7 +125,7 @@
             this.label2.TabIndex = 9;
             this.label2.Text = "translate";
             // 
-            // Form1
+            // TranslateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -140,8 +140,8 @@
             this.Controls.Add(this.BtnTranslate);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "TranslateForm";
+            this.Text = "Form1";      
             this.ResumeLayout(false);
             this.PerformLayout();
 

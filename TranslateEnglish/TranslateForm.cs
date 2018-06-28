@@ -23,13 +23,12 @@ namespace TranslateEnglish
             if (RbLatin.Checked)
             {
                 translator = new PigLatinTranslator();
-                TbOutput.Text = translator.Translate(TbInput.Text);
             }
             else
             {
                 translator = new PigGreekTranslator();
-                TbOutput.Text = translator.Translate(TbInput.Text);
             }
+            TbOutput.Text = translator.Translate(TbInput.Text);
         }
 
         private void BtnClear_Click(object sender, EventArgs e)
