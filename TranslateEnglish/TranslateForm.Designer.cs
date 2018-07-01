@@ -141,7 +141,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "TranslateForm";
-            this.Text = "Form1";      
+            this.Text = "translateform";
             this.ResumeLayout(false);
             this.PerformLayout();
 

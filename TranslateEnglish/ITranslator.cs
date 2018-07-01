@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TranslateEnglish
 {
-    interface ITranslator
+   public interface ITranslator
     {
         string Translate(string text);
     }
